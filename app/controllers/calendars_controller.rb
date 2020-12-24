@@ -20,6 +20,7 @@ class CalendarsController < ApplicationController
     wdays = ['(日)','(月)','(火)','(水)','(木)','(金)','(土)']
 
     @todays_date = Date.today
+    # 例) 今日が2月1日の場合・・・ Date.today.day => 1日
 
     @week_days = []
 
